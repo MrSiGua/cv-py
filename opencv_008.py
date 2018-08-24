@@ -1,6 +1,6 @@
 import cv2 as cv
 
-src = cv.imread("D:/1.jpg")
+src = cv.imread("lena.bmp")
 cv.namedWindow("input", cv.WINDOW_AUTOSIZE)
 cv.imshow("input", src)
 
