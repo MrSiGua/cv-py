@@ -20,7 +20,7 @@ cv.imshow("XY-flip", dst3)
 # custom y-flip
 h, w, ch = src.shape
 dst = np.zeros(src.shape, src.dtype)
-for row in  range(h):
+for row in range(h):
     for col in range(w):
         b, g, r = src[row, col]
         dst[row, w - col - 1] = [b, g, r]
